@@ -1,0 +1,11 @@
+[ 2023-06-02 11:41:46,670 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-02 11:41:46,700 ] 186 werkzeug - INFO -  * Debugger PIN: 817-546-289
+[ 2023-06-02 11:42:17,262 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:42:17] "GET / HTTP/1.1" 200 -
+[ 2023-06-02 11:42:17,545 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:42:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-06-02 11:42:23,066 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:42:23] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-02 11:43:27,652 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:43:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-02 11:43:27,887 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:43:27] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:43:27,956 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:43:27] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:43:28,376 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:43:28] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:43:28,459 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:43:28] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:44:08,051 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Obesityprediction\\app.py', reloading

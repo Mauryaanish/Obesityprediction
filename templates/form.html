@@ -1,0 +1,121 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" name="Age" placeholder="Enter AGE (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="Height">Height:</label>
+        <input type="text" id="Height" name="Height" placeholder="Enter Height (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Weight">Weight:</label>
+        <input type="text" id="Weight" name="Weight" placeholder="Enter Weight (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="FCVC">FCVC:</label>
+        <input type="text" id="FCVC" name="FCVC" placeholder="Enter FCVC (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="NCP">NCP:</label>
+        <input type="text" id="NCP" name="NCP" placeholder="Enter NCP value (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="CH2O">CH2O:</label>
+        <input type="text" id="CH2O" name="CH2O" placeholder="Enter CH2O value (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="FAF">FAF:</label>
+        <input type="text" id="FAF" name="FAF" placeholder="Enter FAF value (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="TUE">TUE:</label>
+        <input type="text" id="TUE" name="TUE" placeholder="Enter TUE value (int)">
+    </div>
+
+    
+  
+    <div class="form-group">
+    <label for="Gender">Gender:</label>
+    <select id="Gender" name="Gender">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+    </select>
+    </div>
+    
+    <div class="form-group">
+    <label for="family_history_with_overweight">family_history_with_overweight:</label>
+    <select id="family_history_with_overweight" name="family_history_with_overweight">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label for="FAVC">FAVC:</label>
+    <select id="FAVC" name="FAVC">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CAEC">CAEC:</label>
+        <select id="CAEC" name="CAEC">
+        <option value="Sometimes">Somethimes</option>
+        <option value="Frequently">Frequently</option>
+        <option value="Always">Always</option>
+        <option value="no">no</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="SMOKE">SMOKE:</label>
+        <select id="SMOKE" name="SMOKE">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="SCC">SCC:</label>
+        <select id="SCC" name="SCC">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CALC">CALC:</label>
+        <select id="CALC" name="CALC">
+        <option value="no">no</option>
+        <option value="Somwthimes">Somethimes</option>
+        <option value="Frequently">Frequently</option>
+        <option value="Always">Always</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="MITRANS">MITRANS:</label>
+        <select id="MITRANS" name="MITRANS">
+        <option value="Public_Transportation">Public_Transportation</option>
+        <option value="Walking">Walking</option>
+        <option value="Automobile">Automobile</option>
+        <option value="Motorbike">Motorbike</option>
+        <option value="Bikes">Bikes</option>
+        </select>
+    </div>
+
+    <div style="clear:both;"></div>
+    <input type="submit" value="Submit">
+    </form>
+    </body>
+    </html>

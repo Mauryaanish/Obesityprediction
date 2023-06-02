@@ -1,0 +1,11 @@
+[ 2023-06-02 11:44:59,225 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-02 11:44:59,241 ] 186 werkzeug - INFO -  * Debugger PIN: 817-546-289
+[ 2023-06-02 11:45:09,167 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:45:09] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-02 11:45:31,334 ] 90 root - INFO - DataFrame Gathered
+[ 2023-06-02 11:45:33,605 ] 27 root - INFO - Exception occured in prediction
+[ 2023-06-02 11:45:34,290 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:45:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-02 11:45:34,516 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:45:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:45:34,946 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:45:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:45:35,583 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:45:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:45:35,807 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:45:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:46:54,955 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Obesityprediction\\src\\pipeline\\prediction_pipeline.py', reloading

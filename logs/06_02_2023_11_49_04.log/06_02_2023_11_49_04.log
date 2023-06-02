@@ -1,0 +1,17 @@
+[ 2023-06-02 11:49:07,574 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-02 11:49:07,582 ] 186 werkzeug - INFO -  * Debugger PIN: 817-546-289
+[ 2023-06-02 11:49:12,847 ] 90 root - INFO - DataFrame Gathered
+[ 2023-06-02 11:49:13,426 ] 27 root - INFO - Exception occured in prediction
+[ 2023-06-02 11:49:13,573 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-02 11:49:13,807 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:13,810 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:13,930 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:14,072 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:18,038 ] 90 root - INFO - DataFrame Gathered
+[ 2023-06-02 11:49:18,077 ] 27 root - INFO - Exception occured in prediction
+[ 2023-06-02 11:49:18,168 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-02 11:49:18,358 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:18,372 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:18,446 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:49:18,532 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:49:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:53:11,013 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Obesityprediction\\src\\components\\data_transformation.py', reloading

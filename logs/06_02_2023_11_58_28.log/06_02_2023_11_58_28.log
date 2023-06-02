@@ -1,0 +1,9 @@
+[ 2023-06-02 11:58:31,290 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-02 11:58:31,304 ] 186 werkzeug - INFO -  * Debugger PIN: 817-546-289
+[ 2023-06-02 11:58:32,562 ] 90 root - INFO - DataFrame Gathered
+[ 2023-06-02 11:58:33,055 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:58:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-02 11:58:33,203 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:58:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:58:33,205 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:58:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:58:33,283 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:58:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 11:58:33,320 ] 186 werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 11:58:33] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-02 12:05:53,938 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Obesityprediction\\app.py', reloading
